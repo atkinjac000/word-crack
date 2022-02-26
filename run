@@ -1,0 +1,7 @@
+#! /bin/bash
+
+cd word_crack
+npm run build
+cd ..
+export FLASK_APP=word_crack_api
+flask run
